@@ -103,10 +103,11 @@ h3{
 
 #main{
 	margin-left:280px;
-	width:530px;
+	width:450px;
 	padding-top:10px;
 	margin-top:20px;
 	line-height:130%;
+	font-size: 13px;
 	text-rendering:optimizeLegibility;
 }
 
