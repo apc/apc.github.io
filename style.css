@@ -52,7 +52,7 @@ h3{
 	margin-top:0;
 	height:100%;
 	position:absolute;
-	border-top:5px solid #616569;
+	border-top:6px solid #616569;
 	width:100%;
 }
 
@@ -62,7 +62,7 @@ h3{
 /*----------------------Header----------------------------*/
 
 #header{
-	margin-left:60px;
+	margin-left:100px;
 	margin-top:50px;
 /*	padding:0px;*/
 	position:relative;
@@ -80,7 +80,7 @@ h3{
 /*----------------------Sidebar---------------------------*/
 
 #sidebar{
-	margin-left:60px;
+	margin-left:100px;
 	padding-top:10px;
 	width:180px;
 	float:left;
@@ -102,7 +102,7 @@ h3{
 /*----------------------Main panel------------------------*/
 
 #main{
-	margin-left:310px;
+	margin-left:350px;
 	width:465px;
 	padding-top:10px;
 	margin-top:20px;
