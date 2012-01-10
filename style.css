@@ -85,10 +85,10 @@ h3{
 #header_courses{
 	margin-left:150px;
 	margin-top:20px;
-	width:300px;
+	width:400px;
 /*	padding:0px;*/
 	position:relative;
-	float:left;
+/*	float:left;*/
 }
 
 #header_courses a{
