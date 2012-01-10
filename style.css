@@ -80,6 +80,26 @@ h3{
 	color:#707070;
 }
 
+/*----------------------Header for course website----------------------------*/
+
+#header_courses{
+	margin-left:150px;
+	margin-top:20px;
+	width:300px;
+/*	padding:0px;*/
+	position:relative;
+	float:left;
+}
+
+#header_courses a{
+	color:#a0a0a0;
+	text-decoration:none;
+}
+
+#header_courses a:hover{
+	color:#707070;
+}
+
 /*---------------------Navigation menu----------------------*/
 
 #nav{
@@ -121,6 +141,8 @@ h3{
 	padding-top:0px;
 	padding-right:25px;
 }
+
+/*--------------------Alt nav-----------------------------*/
 
 
 /*----------------------Sidebar---------------------------*/
