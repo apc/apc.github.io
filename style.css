@@ -10,17 +10,18 @@ vertical-align: baseline;
 
 html,body {
 background-color: #fff;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 color:#707070;
 padding: 0;
 margin:0;
+font-weight: 400;
 height: 100%;
-font-size: 12px;
+font-size: 14px;
 }
 
 h1{
 	font-size:125%;
-	font-weight:bold;
+	font-weight:700;
 	line-height:130%;
 	padding-bottom:2px;
 	color:#707070;
@@ -29,24 +30,24 @@ h1{
 
 h2{
 	font-size:100%;
-	font-weight:bold;
-	font-family:"Helvetica Neue", Helvetica, sans-serif;
+	font-weight:700;
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, sans-serif;
 	padding-bottom:3px;
 	color:#707070;
 }
 
 h3{
 	font-size:100%;
-	font-weight:normal;
-	font-family:"Helvetica Neue", Helvetica, sans-serif;
+	font-weight:400;
+	font-family:"pragmatica-web", "Helvetica Neue", Helvetica, sans-serif;
 	padding-bottom:3px;
 	color:#707070;
 }
 
 h4{
 	font-size:95%;
-	font-weight:bold;
-	font-family:"Helvetica Neue", Helvetica, sans-serif;
+	font-weight:700;
+	font-family: "pragmatica-web", "Helvetica Neue", Helvetica, sans-serif;
 	padding-bottom:3px;
 	color:#d53c2e;
 }
@@ -58,7 +59,7 @@ h4{
 
 #container{
 	margin-left:0px;
-	margin-top:0;
+	padding-top:50px;
 	height:auto;
 	position:absolute;
 	border-top:6px solid #303030;
@@ -73,7 +74,7 @@ h4{
 #header{
 	margin-left:150px;
 	margin-top:20px;
-	width:200px;
+	width:300px;
 /*	padding:0px;*/
 	position:relative;
 	float:left;
@@ -114,7 +115,7 @@ h4{
 	width:300px;
 	font-size:100%;
 	margin-top:23px;
-	margin-left:400px;
+	margin-left:450px;
 	height:60px;
 	
 }
@@ -129,7 +130,7 @@ h4{
 #nav a{
 	text-decoration:none;
 	color:#a0a0a0;
-	font-weight:bold;
+	font-weight:700;
 }
 
 #nav a:hover{
@@ -145,7 +146,7 @@ h4{
 	float:left;
 	width:auto;
 	color:#a0a0a0;
-	font-weight:bold;
+	font-weight:700;
 	padding-top:0px;
 	padding-right:25px;
 }
@@ -156,7 +157,7 @@ h4{
 	clear:both;
 	margin-left:150px;
 	padding-top:10px;
-	width:200px;
+	width:300px;
 	float:left;
 	color:#a0a0a0;
 	line-height:135%;
@@ -176,8 +177,8 @@ h4{
 /*----------------------Main panel------------------------*/
 
 #main{
-	margin-left:400px;
-	width:480px;
+	margin-left:450px;
+	width:540px;
 	padding-top:10px;
 	padding-bottom:50px;
 	margin-top:30px;
