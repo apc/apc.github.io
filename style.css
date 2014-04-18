@@ -11,7 +11,7 @@ vertical-align: baseline;
 html,body {
 background-color: #fff;
 font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-color:#707070;
+color:#303030;
 padding: 0;
 margin:0;
 font-weight: 400;
@@ -24,7 +24,7 @@ h1{
 	font-weight:700;
 	line-height:130%;
 	padding-bottom:2px;
-	color:#707070;
+	color:#303030;
 }
 
 
@@ -33,7 +33,7 @@ h2{
 	font-weight:700;
 	font-family:  "Helvetica Neue", Helvetica, sans-serif;
 	padding-bottom:3px;
-	color:#707070;
+	color:#303030;
 }
 
 h3{
@@ -41,7 +41,7 @@ h3{
 	font-weight:400;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	padding-bottom:3px;
-	color:#707070;
+	color:#303030;
 }
 
 h4{
@@ -86,7 +86,7 @@ h4{
 }
 
 #header a:hover{
-	color:#707070;
+	color:#303030;
 }
 
 /*----------------------Header for course website----------------------------*/
@@ -106,7 +106,7 @@ h4{
 }
 
 #header_courses a:hover{
-	color:#707070;
+	color:#303030;
 }
 
 /*---------------------Navigation menu----------------------*/
@@ -134,7 +134,7 @@ h4{
 }
 
 #nav a:hover{
-	color:#707070;
+	color:#303030;
 }
 
 #nav a.current{
@@ -170,7 +170,7 @@ h4{
 }
 
 #sidebar a:hover{
-	color:#707070;
+	color:#303030;
 }
 
 
@@ -213,12 +213,12 @@ h4{
 }
 
 #main p.abs a{
-	color:#707070;
+	color:#303030;
 	border:none;
 }
 
 #main p.abs a:hover{
-	border-bottom:1px dotted #707070;
+	border-bottom:1px dotted #303030;
 }
 
 /*---------------------Misc-----------------------------*/
@@ -243,12 +243,12 @@ h4{
 .footnotes hr { margin-bottom: 1em; }
 
 div.footnotes a{
-	color:#707070 !important;
+	color:#303030 !important;
 	border-bottom:none !important;
 }
 
 div.footnotes a:hover{
-	border-bottom:1px dotted #707070;
+	border-bottom:1px dotted #303030;
 }
 
 .footnotes a[rev=footnote] { text-decoration: none;}
