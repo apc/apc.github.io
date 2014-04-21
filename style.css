@@ -58,8 +58,9 @@ h4{
 /*----------------------Container-------------------------*/
 
 #container{
-	margin-left:0px;
+	margin-left:0;
 	padding-top:50px;
+	min-width: 1040px;
 	height:auto;
 	position:absolute;
 	border-top:6px solid #303030;
@@ -75,7 +76,7 @@ h4{
 	margin-left:150px;
 	margin-top:20px;
 	width:300px;
-/*	padding:0px;*/
+/*	padding:0;*/
 	position:relative;
 	float:left;
 }
@@ -89,25 +90,6 @@ h4{
 	color:#303030;
 }
 
-/*----------------------Header for course website----------------------------*/
-
-#header_courses{
-	margin-left:150px;
-	margin-top:20px;
-	width:400px;
-/*	padding:0px;*/
-	position:relative;
-/*	float:left;*/
-}
-
-#header_courses a{
-	color:#a0a0a0;
-	text-decoration:none;
-}
-
-#header_courses a:hover{
-	color:#303030;
-}
 
 /*---------------------Navigation menu----------------------*/
 
@@ -123,7 +105,17 @@ h4{
 #nav ul{
 	display:block;
 	line-height:130%;
-	margin-top:0px;
+	margin-top:0;
+}
+
+#nav ul li{
+	display: block;
+	float:left;
+	width:auto;
+	color:#a0a0a0;
+	font-weight:700;
+	padding-top:0;
+	padding-right:25px;
 }
 
 
@@ -137,19 +129,10 @@ h4{
 	color:#303030;
 }
 
-#nav a.current{
+#nav .current{
 	color:#d53c2e;
 }
 
-#nav ul li{
-	display: block;
-	float:left;
-	width:auto;
-	color:#a0a0a0;
-	font-weight:700;
-	padding-top:0px;
-	padding-right:25px;
-}
 
 /*----------------------Sidebar---------------------------*/
 
@@ -181,6 +164,7 @@ h4{
 	width:540px;
 	padding-top:10px;
 	padding-bottom:50px;
+	padding-right:50px;
 	margin-top:30px;
 	line-height:130%;
 	font-size: 115%;
@@ -199,28 +183,6 @@ h4{
 	/*border-bottom:1px dotted #373B3D;*/
 }
 
-#main p.abs, #main p.course{
-	font-size:95%;
-	line-height:120%;
-	padding-top:5px;
-	color:#a0a0a0;
-	margin-left:20px;
-/*	padding-left:10px;*/
-}
-
-#main p.course{
-	padding-bottom:20px;
-	padding-top:10px;
-}
-
-#main p.abs a{
-	color:#303030;
-	border:none;
-}
-
-#main p.abs a:hover{
-	border-bottom:1px dotted #303030;
-}
 
 /*---------------------Misc-----------------------------*/
 
@@ -232,7 +194,7 @@ h4{
 	word-spacing:-.15em;
 }
 
-.footnotes { 
+/*.footnotes { 
     margin-top: 10px;
 	padding-top:5px;
 	border-top:1px solid #e0e0e0;
@@ -254,7 +216,7 @@ div.footnotes a:hover{
 
 .footnotes a[rev=footnote] { text-decoration: none;}
 
-
+*/
 /*
 body#home a#homenav,
 body#work a#worknav,
