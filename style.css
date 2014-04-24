@@ -21,7 +21,7 @@ font-size: 14px;
 
 h1{
 	font-size:140%;
-	font-weight:700;
+	font-weight:400;
 	line-height:130%;
 	padding-bottom:2px;
 	color:#303030;
@@ -30,7 +30,7 @@ h1{
 
 h2{
 	font-size:100%;
-	font-weight:700;
+	font-weight:400;
 	font-family:  "Helvetica Neue", Helvetica, sans-serif;
 	padding-bottom:3px;
 	color:#303030;
@@ -113,7 +113,7 @@ h4{
 	float:left;
 	width:auto;
 	color:#a0a0a0;
-	font-weight:700;
+	font-weight:400;
 	padding-top:0;
 	padding-right:25px;
 }
@@ -122,15 +122,19 @@ h4{
 #nav a{
 	text-decoration:none;
 	color:#a0a0a0;
-	font-weight:700;
+	font-weight:400;
 }
 
 #nav a:hover{
-	color:#303030;
+	background-color:#FFFF00;
 }
 
 #nav .current{
-	color:#d53c2e;
+	color:#303030;
+}
+
+#nav a.current:hover{
+	background-color:#FFF;
 }
 
 
@@ -179,7 +183,8 @@ h4{
 }
 
 #main a:hover{
-	color:#d53c2e;
+	/*color:#d53c2e;*/
+	background-color:#FFFF00;
 	/*border-bottom:1px dotted #373B3D;*/
 }
 
