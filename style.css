@@ -625,6 +625,16 @@ padding-right: 1.5em;
 	/*margin: 0 auto -300px;*/
 }
 
+h1{
+	font-weight: 900 !important;
+	padding-bottom: 10px !important;
+}
+
+.sm-heading{
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 1px !important;
+}
+
 .postal{
 	min-width: 568px !important;
 	width: 100%;
