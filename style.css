@@ -618,8 +618,9 @@ padding-right: 1.5em;
 @media screen and (max-width: 768px) {
 
 .container{
+	font-size: 12px;
 	// min-width: 10;
-	width: 50% !important;
+	width: 100% !important;
 	margin: 0 auto 100px;
 	/*height: 100%;*/
 	/*margin: 0 auto -300px;*/
