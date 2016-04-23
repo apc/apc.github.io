@@ -618,7 +618,7 @@ padding-right: 1.5em;
 @media screen and (max-width: 768px) {
 
 .container{
-	min-width: 568px;
+	min-width: 308px;
 	width: 90% !important;
 	margin: 0 auto 100px;
 	/*height: 100%;*/
