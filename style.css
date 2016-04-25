@@ -23,6 +23,10 @@ body{
 	border-top: 2px solid #222;
 }
 
+.only-on-mobiles{
+	display:none;
+}
+
 /*		Typography		*/
 
 body{
@@ -627,9 +631,23 @@ padding-right: 1.5em;
 	/*margin: 0 auto -300px;*/
 }
 
+.only-on-mobiles{
+	display:inline !important;
+}
+
+.banner{
+	padding-top: 5em !important;
+	padding-bottom: 1em !important;
+}
+
 h1{
 	font-weight: 900 !important;
+	font-size: 1.188em;
 	padding-bottom: 10px !important;
+}
+
+h2{
+	font-size: 1.188em;
 }
 
 .sm-heading{
