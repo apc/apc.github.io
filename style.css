@@ -9,7 +9,7 @@ vertical-align: baseline;
 
 html,body {
 background-color: #fff;
-color:#222;
+color:#313131;
 padding: 0;
 margin:0;
 height: 100%;
@@ -17,7 +17,7 @@ width: 100%;
 }
 
 body{
-	border-top: 2px solid #222;
+	border-top: 2px solid #313131;
 	font-size: 0.875em;
 }
 
@@ -149,7 +149,7 @@ article p a, article p a:visited{
 }
 
 article:hover p a, article:hover p a:visited{
-	color: #222;
+	color: #313131;
 }
 
 article .nemph{
@@ -167,7 +167,7 @@ article .add a{
 }
 
 article ul li a:hover, article .add a:hover, article .nemph a:hover{
-	color: #222 !important;
+	color: #313131 !important;
 }
 
 .about a, .about a:visited{
@@ -701,7 +701,7 @@ article{
 }
 
 article:hover h2, article ul li, article:hover ul li{
-	color:#222 !important;
+	color:#313131 !important;
 }
 
 }
