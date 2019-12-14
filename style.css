@@ -1,3 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 * {
 margin: 0;
 padding: 0;
@@ -18,7 +24,7 @@ width: 100%;
 
 body{
 	border-top: 2px solid #222;
-	font-size: 0.875em;
+	font-size: 0.675em;
 }
 
 .only-on-mobiles{
@@ -28,7 +34,7 @@ body{
 /*		Typography		*/
 
 body{
-	font-family: "franklin-gothic-urw",sans-serif;
+	font-family: "Inter", "franklin-gothic-urw",sans-serif;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -37,18 +43,18 @@ body{
 
 
 h1{
-	font-weight: 500;
+	font-weight: Black;
 	font-size: 1.5em;
 }
 
 h2{
-	font-weight: 500;
+	font-weight: Black;
 	font-size: 1.5em;
 
 }
 
 h3{
-	font-weight: 500;
+	font-weight: Black;
 	font-size: 1.66em;
 	letter-spacing: -0.005em;
 
@@ -149,8 +155,9 @@ article p a, article p a:visited{
 }
 
 article:hover p a, article:hover p a:visited{
-	color: #222;
+	/* color: #222; */
 	border-bottom: none;
+  /* border-bottom: 1px solid; */
 }
 
 article .nemph{
@@ -180,7 +187,7 @@ article ul li a:hover, article .add a:hover, article .nemph a:hover{
 
 .bio p a, .bio p a:visited {
 	color: #222;
-	border-bottom: 1px solid #9e9e9e;
+	border-bottom: 1px solid;
 }
 
 .bio:hover p a, .bio:hover p a:visited {
@@ -216,7 +223,7 @@ article ul li a:hover, article .add a:hover, article .nemph a:hover{
 /* 			Headings			*/
 
 h1{
-	text-align: right;	
+	text-align: right;
 	cursor: default;
 	padding-top: 0.8em;
 	border-top: 1px solid #fff;
@@ -227,7 +234,7 @@ h2{
 }
 
 h3{
-	text-align: right;	
+	text-align: right;
 	/*padding-top: 0.8em;*/
 	cursor: default;
 }
@@ -321,7 +328,7 @@ article ul .icon-link{
 }
 
 
-article, .about{	
+article, .about{
 	border-top: 1px solid #fff;
 	padding-left: 1.5em;
 }
@@ -357,8 +364,8 @@ article:hover p.add{
 }
 
 .photo {
-	// width: 248px;
-	max-width: 90%;
+	// width: 218px;
+	max-width: 80%;
 	float:right;
 }
 
@@ -395,7 +402,7 @@ article ul.contact li:after{
 /* 		Email etc. 			*/
 
 .postal{
-	margin:auto;	
+	margin:auto;
 	padding-left: 20px;
 }
 
@@ -441,7 +448,7 @@ padding-right: 1.5em;
 
 /* Colors on hover */
 
-.green:hover, .green:hover p a:hover{
+.green:hover, .green:hover a, .green:hover p a:hover{
 	color:#77b192;
 }
 
@@ -454,7 +461,7 @@ padding-right: 1.5em;
 }
 
 
-.blue:hover, .blue:hover p a:hover{
+.blue:hover, .blue:hover a, .blue:hover p a:hover{
 	color:#008AB8;
 }
 
@@ -466,7 +473,7 @@ padding-right: 1.5em;
   	color: #008AB8;
 }
 
-.yellow:hover, .yellow:hover p a:hover{
+.yellow:hover, .yellow:hover, .yellow:hover p a:hover{
 	color:#d2a668;
 }
 
@@ -478,7 +485,7 @@ padding-right: 1.5em;
   	color: #d2a668;
 }
 
-.red:hover, .red:hover p a:hover{
+.red:hover, .red:hover a, .red:hover p a:hover{
 	color:#ce5c36;
 }
 
@@ -491,7 +498,7 @@ padding-right: 1.5em;
   	color: #ce5c36;
 }
 
-.altgreen:hover, .altgreen:hover p a:hover{
+.altgreen:hover, .altgreen:hover a, .altgreen:hover p a:hover{
 	color:#699691;
 }
 
@@ -504,7 +511,7 @@ padding-right: 1.5em;
   	color: #699691;
 }
 
-.purple:hover, .purple:hover p a:hover{
+.purple:hover, .purple:hover a, .purple:hover p a:hover{
 	color:#98678b;
 }
 
@@ -517,7 +524,7 @@ padding-right: 1.5em;
   	color: #98678b;
 }
 
-.greygreen:hover, .greygreen:hover p a:hover{
+.greygreen:hover, .greygreen:hover a, .greygreen:hover p a:hover{
 	color:#c9a326;
 }
 
@@ -530,7 +537,7 @@ padding-right: 1.5em;
   	color: #c9a326;
 }
 
-.greyblue:hover, .greyblue:hover p a:hover{
+.greyblue:hover, .greyblue:hover a, .greyblue:hover p a:hover{
 	color:#667ca3;
 }
 
@@ -544,7 +551,7 @@ padding-right: 1.5em;
 }
 
 
-.orange:hover, .orange:hover p a:hover{
+.orange:hover, .orange:hover a, .orange:hover p a:hover{
 	color:#da7025;
 }
 
@@ -562,7 +569,7 @@ padding-right: 1.5em;
 
 @media screen and (min-width: 1380px) {
   .container {
-    width: 1080px;
+    width: 980px;
     margin: 0 auto;
 	font-size: calc(75% + 0.3vw);
   }
@@ -579,10 +586,11 @@ padding-right: 1.5em;
 @media screen and (max-width: 1020px) {
 
 .container{
-		width: 650px !important;
+		width: 750px !important;
 		margin: 0 auto;
-		font-size: calc(55% + 0.25vw);
+		font-size: calc(55 + 0.25vw);
 }
+
 
 article a, ul.contact a, .bio ul.contact a{
 	color:#77b192 !important;
@@ -618,7 +626,7 @@ article:hover h2, article ul li, article:hover ul li{
 	max-width: 550px;
 	width: 100% !important;
 	margin: 0 auto;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .only-on-mobiles{
@@ -705,7 +713,7 @@ article{
 
 .icon-link{
 	display: none !important;
-}  
+}
 
 .footer {
 	height:100px;
