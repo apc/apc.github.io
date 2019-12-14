@@ -43,18 +43,18 @@ body{
 
 
 h1{
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 1.3em;
 }
 
 h2{
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 1.3em;
 
 }
 
 h3{
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 1.5em;
 	letter-spacing: -0.005em;
 
@@ -124,6 +124,10 @@ article ul li, .postal ul li, .contact ul li{
 
 a{
 	text-decoration: none;
+}
+
+a.plain, a.plain:hover {
+  color:#222;
 }
 
 nav ul li a, .banner ul li a{
@@ -636,6 +640,7 @@ article:hover h2, article ul li, article:hover ul li{
 	display:inline !important;
 }
 
+
 .banner{
 	padding-top: 5em !important;
 	padding-bottom: 1em !important;
@@ -720,7 +725,7 @@ article{
 	height: 250px;
 }
 
-.icon-link{
+.icon-link, .non-mobiles{
 	display: none !important;
 }
 
