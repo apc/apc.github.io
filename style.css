@@ -161,8 +161,8 @@ article p a, article p a:visited{
 
 article:hover p a, article:hover p a:visited{
 	/* color: #222; */
-	border-bottom: none;
-  /* border-bottom: 1px solid; */
+	/* border-bottom: none; */
+  border-bottom: 1px solid;
 }
 
 article .nemph{
