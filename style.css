@@ -50,14 +50,12 @@ h1{
 h2{
 	font-weight: 700;
 	font-size: 1.3em;
-
 }
 
 h3{
 	font-weight: 700;
 	font-size: 1.5em;
 	letter-spacing: -0.005em;
-
 }
 
 
@@ -66,7 +64,7 @@ ul li{
 }
 
 .container{
-	line-height: 1.6;
+	line-height: 1.8;
   font-size:0.96em;
 }
 
@@ -392,7 +390,7 @@ article ul.contact li:after{
 	height:220px;
 	color:#dedede;
 	text-align: left;
-	margin-top: 2.5em;
+	margin-top: 0;
 }
 
 .footer:hover{
