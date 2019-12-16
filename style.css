@@ -686,6 +686,9 @@ ul.contact li{
 	display: none;
 }
 
+article p{
+font-size: 1em}
+
 article a, ul.contact a, .bio ul.contact a{
 	color:#77b192 !important;
 	border-bottom: none !important;
